@@ -1,0 +1,91 @@
+/* || general */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container--max-width {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* || header */
+
+.header-top {
+    background-color: #F2F2F2;
+}
+
+.header-top__container {
+    padding: 19px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.header-top__left-side--opening-hours {
+    color: #1C2752;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-top__right-side {
+    max-width: 123px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #1C2752;
+}
+
+.header-top__right-side i {
+    cursor: pointer;
+}
+
+.header-bottom__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 40px 10px;
+}
+
+.header-bottom__right-side {
+    display: flex;
+    max-width: 522px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.contact-item {
+    width: 242px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-item__icon {
+    width: 68px;
+}
+
+.contact-item__info-name {
+    color: #1C2752;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    width: 161px;
+}
+
+.contact-item__info {
+    font-size: 18px;
+    color: #7E7E7E;
+    font-weight: 400;
+}
+
+.header-bottom__logo {
+    max-width: 240px;
+    width: 100%;
+}
