@@ -10,6 +10,20 @@ body {
     margin: 0 auto;
 }
 
+.heading--style {
+    color: #1C2752;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.button--style {
+    background-color: #FFB342;
+    padding: 20px 33px;
+    color: #1C2752;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* || header */
 
 .header-top {
@@ -125,17 +139,15 @@ body {
 
 /* || nav section */
 
-.nav-section {
-    background-color: #FFB342;
-    position: relative;
-    top: -20px;
-}
-
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+    flex-wrap: wrap;
+    background-color: #FFB342;
+    position: relative;
+    top: -30px;
 }
 
 .main-nav__nav-list {
@@ -143,6 +155,18 @@ body {
     max-width: 700px;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 996px) {
+    .main-nav {
+        justify-content: space-around;
+    }
+
+    .main-nav__nav-list {
+        margin-bottom: 15px;
+    }
 }
 
 .main-nav__nav-list--nav-option a {
@@ -151,10 +175,63 @@ body {
     font-weight: 600;
 }
 
+@media (max-width: 569px) {
+    .main-nav__nav-list {
+        justify-content: space-around;
+    }
+}
+
 .main-nav__button {
     padding: 20px 22px;
     background-color: #1C2752;
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* || services section */
+
+.services-section {
+    background-image: radial-gradient(120.13% 64.77% at 81.74% 32.31%, rgba(40, 43, 53, 0.00) 2.98%, rgba(0, 0, 0, 0.75) 100%), url('../images/Background-1.png');
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.services-container {
+    margin: 15% auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 306px;
+}
+
+.servicies-container__sub-text {
+    padding: 8px 16px;
+    display: inline-flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.20);
+    align-items: center;
+}
+
+.servicies-container__sub-text--img {
+    width: 30px;
+}
+
+.servicies-container__sub-text--text {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.services-container__heading {
+    color: white;
+    font-size: 55px;
+    max-width: 619px;
+    width: 100%;
+    line-height: 80px;
 }
