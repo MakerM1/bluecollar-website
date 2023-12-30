@@ -48,13 +48,13 @@ body {
     background-color: #F4F4F4;
 }
 
-.servicies-container__sub-text img {
+.sub-text--style img {
     width: 30px;
 }
 
-.servicies-container__sub-text p {
+.sub-text--style p {
     font-size: 18px;
-    color: white;
+    color: #1C2752;
     font-weight: 500;
 }
 
@@ -378,6 +378,11 @@ body {
     }
 }
 
+.about__sub-text {
+    max-width: 250px;
+    width: 100%;
+}
+
 /* || servicies details */
 
 .servicies-details-section {
@@ -508,7 +513,7 @@ body {
 
 .our-servicies__sub-text {
     background-color: white;
-    max-width: 160px;
+    max-width: 200px;
     margin-bottom: 10px;
 }
 
@@ -532,6 +537,7 @@ body {
     justify-content: space-between;
     align-content: space-between;
     min-height: 669px;
+    margin-bottom: 150px;
 }
 
 .our-servicies-cards__card {
@@ -692,7 +698,7 @@ body {
 }
 
 .why-us__sub-text {
-    max-width: 200px;
+    max-width: 220px;
     width: 100%;
 }
 
@@ -725,4 +731,53 @@ body {
 .check-container__paragraph {
     max-width: 513px;
     width: 100%;
+}
+
+/* || recent works */
+
+.recent-works-section {
+    background-color: #1C2752;
+    text-align: center;
+    padding: 10px;
+    min-height: 1134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-works__sub-text {
+    max-width: 180px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.recent-works__heading {
+    color: white;
+    margin-bottom: 60px;
+}
+
+.works-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.works__work-card {
+    padding: 21px 22px;
+    background-color: white;
+    display: inline-block;
+    max-width: 350px;
+    width: 100%;
+}
+
+.works__work-card--img img {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.works__work-card--texts h5 {
+    font-size: 25px;
 }
