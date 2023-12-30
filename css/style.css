@@ -1103,6 +1103,11 @@ input[type=number] {
 .news-section {
     text-align: center;
     padding: 10px;
+    min-height: 1079px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .news-section__heading {
@@ -1117,10 +1122,16 @@ input[type=number] {
 
 .news-cards-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     gap: 29px;
     flex-wrap: wrap;
     padding: 10px;
+}
+
+.news-cards__card {
+    max-width: 500px;
+    width: 100%;
 }
 
 .news-cards__card--img-contanier {
@@ -1149,13 +1160,13 @@ input[type=number] {
     width: 100%;
     display: flex;
     gap: 10px;
-    padding: 20px 29px;
     background-color: #FFC368;
     color: #1C2752;
     font-size: 15px;
     font-weight: 500;
     align-items: center;
     justify-content: center;
+    height: 60px;
 }
 
 .name-upload-date__item p {
