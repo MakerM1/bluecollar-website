@@ -1287,3 +1287,129 @@ input[type=number] {
 .news-latter__subscribe:hover {
     background-color: rgba(255, 255, 255, 0.799);
 }
+
+/* || footer */
+
+footer {
+    background-color: #1C2752;
+    padding: 10px;
+    min-height: 546px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__top-part {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 0 0 56px 0;
+    border-bottom: 2px solid #4B557D;
+}
+
+.footer__contact-info {
+    display: flex;
+    max-width: 834px;
+    width: 100%;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer__contact-name {
+    color: white;
+}
+
+.footer__contact-info {
+    color: white;
+}
+
+.footer__middle-part {
+    margin: 41px 0;
+    display: flex;
+    gap: 66px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer__socials {
+    padding: 0 66px 0 0;
+    display: inline-block;
+    border-right: 2px solid #4B557D;
+}
+
+.footer__text {
+    max-width: 440px;
+    width: 100%;
+    margin-bottom: 60px;
+    color: white;
+    font-weight: 400;
+}
+
+.footer__socials--social-container {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__socials--social {
+    color: white;
+    background-color: #2C3765;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.footer__lists h5 {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.footer__lists ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__lists li {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__nav {
+    padding: 0 66px 0 0;
+    display: inline-flex;
+    gap: 66px;
+    border-right: 2px solid #4B557D;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 986px) {
+    .footer__socials {
+        border-right: none;
+    }
+}
+
+@media (max-width: 611px) {
+    .footer__nav {
+        border-right: none;
+    }
+}
+
+.footer__bottom-part {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    border-top: 2px solid #4B557D;
+    padding: 19px 0;
+}
