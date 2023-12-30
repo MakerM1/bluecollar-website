@@ -1214,3 +1214,76 @@ input[type=number] {
 .news-cards__card--link i {
     vertical-align: middle;
 }
+
+/* || newslatter */
+
+.news-latter {
+    background-color: #FFB342;
+    padding: 10px;
+    min-height: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-latter__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 94px;
+    flex-wrap: wrap;
+}
+
+.news-latter__left {
+    max-width: 585px;
+    width: 100%;
+}
+
+.news-latter__text {
+    margin-top: 11px;
+    color: #1C2752;
+}
+
+.news-latter__text span {
+    font-weight: 700;
+}
+
+.new-latter__right {
+    max-width: 520px;
+    width: 100%;
+}
+
+.news-latter__form {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+    max-width: 520px;
+    width: 100%;
+}
+
+.news-latter__input {
+    max-width: 329px;
+    width: 100%;
+    border: 2px solid white;
+    height: 65px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+}
+
+.news-latter__subscribe {
+    max-width: 191px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border: 2px solid white;
+    color: #1C2752;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.news-latter__subscribe:hover {
+    background-color: rgba(255, 255, 255, 0.799);
+}
