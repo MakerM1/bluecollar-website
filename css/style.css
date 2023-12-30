@@ -58,6 +58,28 @@ body {
     font-weight: 500;
 }
 
+.input--style {
+    border: 1px solid #DDD;
+    max-width: 464px;
+    width: 100%;
+    min-height: 65px;
+    outline: none;
+    padding: 10px;
+    resize: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 /* || header */
 
 .header-top {
@@ -780,4 +802,168 @@ body {
 
 .works__work-card--texts h5 {
     font-size: 25px;
+}
+
+/* || contact section */
+
+.contact-section {
+    padding: 10px;
+    min-height: 1467px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.reviews__heading {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+
+.customer-review-container {
+    max-width: 581px;
+    width: 100%;
+    border: 1px solid #DDD;
+    padding: 39px;
+    margin-bottom: 33px;
+}
+
+.cusomter-review__customer-profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #DDD;
+    padding: 0 0 20px 0;
+    margin-bottom: 17px;
+}
+
+.cusomter-review__customer-profile--profile {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cusomter-review__customer-profile--profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.customer-review__name-locaton--name {
+    color: #1C2752;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.customer-review__name-locaton--location {
+    color: #7E7E7E;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.customer-review__review {
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.customer-review__review span {
+    color: #1C2752;
+    font-weight: 600;
+}
+
+.phone-number-contanier {
+    background-color: #FFB342;
+    max-width: 581px;
+    width: 100%;
+    padding: 50px 42px;
+}
+
+.phone__sub-text {
+    max-width: 190px;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.phone__title {
+    color: #1C2752;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.phone__text {
+    color: #1C2752;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+
+.phone__phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.phone__phone-number a {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    color: white;
+    margin-left: 10px;
+}
+
+.reviews__sub-text {
+    max-width: 180px;
+}
+
+.contact__sub-text {
+    max-width: 150px;
+}
+
+.contact {
+    max-width: 580px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #F4F4F4;
+    padding: 68px 58px;
+    width: 100%;
+}
+
+.form-container__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.clients {
+    text-align: center;
+}
+
+.clients__sub-text {
+    max-width: 150px;
+}
+
+.clients__clients-container {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    gap: 94px;
+    flex-wrap: wrap;
 }
